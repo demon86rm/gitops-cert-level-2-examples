@@ -2,9 +2,6 @@ apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
   name: cluster-git
-  namespace: default
-  labels:
-    environment: default
 spec:
   generators:
     # matrix 'parent' generator
